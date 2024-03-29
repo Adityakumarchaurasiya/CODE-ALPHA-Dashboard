@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',ital;
+    box-sizing: border-box;
+}
+
+body{
+   background: url('aditya.jpg') no-repeat;
+   background-size: cover;
+   background-position: center;
+    color: #ededed;
+
+}
+.head{
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding: 20px 7%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    color: white;
+    font-size: 2rem;
+
+}
+.navbar a{
+    color: #ededed;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+
+.navbar a:hover
+, .navbar a.active{
+    color: #00abf0;
+}
+
+.home{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+   padding-right: 30%;
+   
+  
+}
+
+.home-a{
+    
+    max-width: 500;
+
+}
+
+.home-a h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.2;
+}
+.home-a h3{
+    font-weight: 600;
+    font-size: 30px;
+    color: #00abf0;
+}
+.home-a p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.home-a .btn{
+  
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn a{
+    background-color: #00abf0;
+    display: inline-flex;
+    height: 40px;
+    width: 110px;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #081b29;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn a:nth-child(2){
+    background-color: transparent;
+    color: #00abf0;
+}
+
+.home-content{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    bottom: 4rem;
+    width: 170px;
+}
+
+.home-content a{
+    display: inline-flex;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 54);
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+}
