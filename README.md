@@ -6,14 +6,14 @@ I'll create a personal web page to show off your work. We will test your HTML kn
 
 ⭐ Star me on GitHub — it helps
 
-# Features 📋
+## Features 📋
 ⚡️ Fully Responsive
 ⚡️ Valid HTML5 & CSS3
-# Installation & Deployment 📦
+## Installation & Deployment 📦
 - Clone the repository and modify the content of `index.html`
 - Update the info of `projects` folder according to your need
 - To deploy your website, first you need to create github repository with name `Adityakumarchaurasiya.github.io` and push the generated code to the `main` branch.
-# Sections 📚
+## Sections 📚
 ✔️ About 
 ✔️ Interests
 ✔️ Education
@@ -23,7 +23,7 @@ I'll create a personal web page to show off your work. We will test your HTML kn
 ✔️ Skills
 ✔️ Resume
 ✔️ Contact Info
-# Tools Used 🛠️
+## Tools Used 🛠️
 -  GitHub Pages -To host my static website (HTML5, CSS3).
 ## 🔗 Links
 [![GitHub](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Adityakumarchaurasiya)
